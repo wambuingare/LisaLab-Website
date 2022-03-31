@@ -3,12 +3,13 @@ h1{
 }
 body{
     background-color:#fcc9da;
+    /* font-family:monospace; */
     }
-.about{
-    font-family: 'Courier New', Courier, monospace;
-    text-transform:lowercase;
-    text-align: center;
-   }
+    .about{
+        font-family: 'Courier New', Courier, monospace;
+        text-transform:lowercase;
+        text-align: center;
+       }
 p{
     text-align: center;
     font-size: x-large;
@@ -32,14 +33,18 @@ ul li{
     text-decoration:none;
     list-style:none;
     box-sizing: border-box;
+    
 }
 body{
     font-family: montserrat;
+    /* background:#680057; */
 }
 nav{
     background:#680057;
     height: 80px;
     width: 100%
+    padding-top 10px;
+
 
 }
 h1 label.logo {
@@ -86,5 +91,10 @@ a.active,a:hover{
 }
 .card{
     background-color:#fcc9da;
+
+}
+#card-one{
+    /* background-color:#fcc9da; */
+    margin-top: -9%;
 
 }

@@ -44,16 +44,15 @@ body{
 nav{
     background:#680057;
     height: 80px;
-    width: 100%
-
+    width: 100%;
 }
 h1 label.logo {
     color: white;
-    font-size:40px;
+    font-size:20px;
     line-height: 80px;
-    padding: 5px;
     font-weight: bold;
     float:left;
+    padding: 10px;
    
 
 }
