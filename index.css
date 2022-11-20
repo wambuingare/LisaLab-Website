@@ -1,50 +1,24 @@
-h1{ 
-    color:#680057;
+body{ 
+    padding: 1%;
     background-color:#fcc9da;
-}
-body{
-    color:#f10e59;
-    background-color:#fcc9da;
-
-    }
-.about{
-    font-family: 'Courier New', Courier, monospace;
-    text-transform:lowercase;
-text-align: center;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
    
+}
+h1{ 
+    color:white;
+ }
+ h2{
+  color: white;
+ }
 
-}
-p{
-    text-align: center;
-    font-size: x-large;
-}
-h1{
-    text-align: center;
-}
-.list li{
-    list-style: none;
-    font-size: x-large;
-}
-ul li{
-    text-align: center;
-    font-size: x-large;
-}
-
-  
-*{
-    padding:0;
-    margin: 0;
-    text-decoration:none;
-    list-style:none;
-    box-sizing: border-box;
-}
-body{
-    font-family: montserrat;
-}
-nav{
+ nav{
+     margin-top:-50px;
     background:#680057;
     height: 80px;
-    width: 100%
+    width: 100%;
+    padding-left: 10px;
 
 }
 h1 label.logo {
@@ -75,6 +49,7 @@ nav ul li{
     display: inline-block;
     line-height: 80px;
     margin:0 5px;
+
 }
 nav ul li a{
     color:lawngreen;
@@ -89,3 +64,25 @@ a.active,a:hover{
     transition: 1s;
 
 }
+div{
+    padding: 3%;
+    float: right;
+  
+}
+
+.image{
+    width: 90%;
+    margin: 10% auto;
+    margin-top: -1%;
+    padding-left: 10%;
+    margin-left: 20%;
+    margin-right:  2%;
+ 
+}
+
+img{
+    width: 100%;
+    
+  
+}
+ 

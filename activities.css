@@ -1,0 +1,100 @@
+h1{ 
+    color:#680057;
+}
+body{
+    background-color:#fcc9da;
+    /* font-family:monospace; */
+    }
+    .about{
+        font-family: 'Courier New', Courier, monospace;
+        text-transform:lowercase;
+        text-align: center;
+       }
+p{
+    text-align: center;
+    font-size: x-large;
+}
+h1{
+    text-align: center;
+}
+.list li{
+    list-style: none;
+    font-size: x-large;
+}
+ul li{
+    text-align: center;
+    font-size: x-large;
+}
+
+  
+*{
+    padding:0;
+    margin: 0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: montserrat;
+    /* background:#680057; */
+}
+nav{
+    background:#680057;
+    height: 80px;
+    width: 100%
+    padding-top 10px;
+
+
+}
+h1 label.logo {
+    color: white;
+    font-size:40px;
+    line-height: 80px;
+    padding: 5px;
+    font-weight: bold;
+    float:left;
+   
+
+}
+h2 label.logo {
+    color: white;
+    font-size:20px;
+    line-height: 80px;
+    font-weight: bold;
+    float:left;
+    padding: 10px;
+
+}
+
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:lawngreen;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  
+}
+a.active,a:hover{
+    background:#8f003b;
+    transition: 1s;
+
+}
+.card{
+    background-color:#fcc9da;
+
+}
+#card-one{
+    /* background-color:#fcc9da; */
+    margin-top: -9%;
+
+}
